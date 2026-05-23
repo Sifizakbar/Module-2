@@ -7,10 +7,17 @@ To write a Python program that defines a **lambda function** which takes two arg
 1. Get two integer inputs from the user.
 2. Use a **lambda function** to define a function `f` that returns `a + b`.
 3. Call the function with the user inputs and print the result.
-
 ## 🧾 Program
-Add code here
+```
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
+f = lambda a, b: a + b
+
+print("Sum =", f(a, b))
+```
 ## Output
+<img width="645" height="101" alt="image" src="https://github.com/user-attachments/assets/805d0cf5-3505-49de-911a-9514256df665" />
 
 ## Result
+Thus, the Python program using a lambda function to add two numbers was executed successfully and the output was verified.
